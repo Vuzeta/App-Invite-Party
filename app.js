@@ -52,6 +52,7 @@ ul.addEventListener('click', e => {
 		} else if (button.textContent === 'Edit') {
 			const span = li.firstElementChild;
 			const input = document.createElement('input');
+			input.required = true;
 			input.type = 'text';
 			input.value = span.textContent;
 			li.insertBefore(input, span);
@@ -61,6 +62,7 @@ ul.addEventListener('click', e => {
 			const input = li.firstElementChild;
 			const span = document.createElement('span');
 			span.textContent = input.value;
+			if (!span.textContent) span.textContent = 'Guest';
 			li.insertBefore(span, input);
 			li.removeChild(input);
 			button.textContent = 'Edit';
