@@ -1,4 +1,4 @@
-# App-Invite-Party
+# Invite Party
 
 ### Description 
 
