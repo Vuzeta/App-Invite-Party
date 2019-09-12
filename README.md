@@ -2,7 +2,7 @@
 
 ### Description 
 
-The "Invite" application was created on the basis of the course on the TeamTreeHouse platform. The application helps to compose a list of participants for any event.
+The "Invite Party" application was created on the basis of the course on the TeamTreeHouse platform. The application helps to compose a list of participants for any event.
 
 ------------
 ### Technology used:
